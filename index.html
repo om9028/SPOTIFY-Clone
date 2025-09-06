@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Favourite-Song</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+           <span> <li class="brand"><img src="logo.png" alt="spotify-Logo">Spotify</li></span>
+            <div class="navLinks">
+                <li >Home</li>
+                 <li >About</li>
+            </div>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>My Favourite Playlist</h1>
+            <div class="songlistContainer">
+                <div class="songItem">
+                <img src="1.jpeg" alt="song-Image1">
+                <span class="songName">Jutti Meri</span>
+                <span class="songlistplay"><span>03:28</span><i id="0" class="fa-solid songItemPlay fa-circle-play"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src="2.jpeg" alt="song-Image1">
+                <span class="songName">Pal Pal Dil Ke Paas</span>
+                <span class="songlistplay"><span>05:16</span><i id="1" class="fa-solid songItemPlay fa-circle-play"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src="3.jpeg" alt="song-Image1">
+                <span class="songName">Dil Ibaadat</span>
+                <span class="songlistplay"><span>05:29</span><i id="2" class="fa-solid songItemPlay fa-circle-play"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src="4.jpeg" alt="song-Image1">
+                <span class="songName">O' Meri Laila</span>
+                <span class="songlistplay"><span>02:23</span><i id="3" class="fa-solid songItemPlay fa-circle-play"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src="5.jpeg" alt="song-Image1">
+                <span class="songName">Maula Maula</span>
+                <span class="songlistplay"><span>06:04</span><i id="4" class="fa-solid songItemPlay fa-circle-play"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src="6.jpeg" alt="song-Image1">
+                <span class="songName">Maahi</span>
+                <span class="songlistplay"><span>05:29</span><i id="5" class="fa-solid songItemPlay fa-circle-play"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src="7.jpeg" alt="song-Image1">
+                <span class="songName">Tere Bina</span>
+                <span class="songlistplay"><span>05:09</span><i id="6" class="fa-solid songItemPlay fa-circle-play"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src="8.jpeg" alt="song-Image1">
+                <span class="songName">Dil Ka Jo Haal Hai</span>
+                <span class="songlistplay"><span>05:02</span><i id="7" class="fa-solid songItemPlay fa-circle-play"></i> </span>
+            </div>
+            </div>
+            
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value = 0 min="0" max="100" value="50">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+            <!-- fontawesom icon -->
+        </div>
+        <div class="songInfo">
+            <img src="music-12883.gif" alt="gif" width="30"  id="gif">
+            <span class="masterSongName"></span>
+        </div>
+    </div>
+    
+
+
+
+    <script src="https://kit.fontawesome.com/8abf09c1b9.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
